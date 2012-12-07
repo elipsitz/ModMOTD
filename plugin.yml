@@ -1,0 +1,17 @@
+name: ModMOTD
+main: com.aegamesi.mc.modmotd.ModMOTD
+version: 1.0.0.1
+commands:
+   modset:
+      description: Sets the mod motd. If no motd is given, tells you the current motd.
+      usage: /<command> <motd>
+   modappend:
+      description: Appends something to the motd
+      usage: /<command> <motd>
+   modclear:
+      description: Clears the motd
+      usage: /<command>
+permissions:
+   modmotd.*:
+      description: Allows you to use mod motd
+      default: false
